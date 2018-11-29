@@ -29,16 +29,16 @@ public class Zoo {
 		mammals.add(mammal1); mammals.add(mammal2); mammals.add(mammal3);
 		birds.add(bird1); birds.add(bird2); birds.add(bird3);
 		
-		animals.add(mammal1); animals.add(mammal2); animals.add(mammal3);
-		animals.add(bird1); animals.add(bird2); animals.add(bird3);
+		/*animals.add(mammal1); animals.add(mammal2); animals.add(mammal3);
+		animals.add(bird1); animals.add(bird2); animals.add(bird3);*/
 		
-		/*for (Mammal m : mammals) {
+		for (Mammal m : mammals) {
 			animals.add(m);
 		}
 		
 		for (Bird b : birds) {
-			birds.add(b);
-		}*/
+			animals.add(b);
+		}
 		
 	}
 
